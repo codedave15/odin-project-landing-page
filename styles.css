@@ -98,3 +98,25 @@
     border-radius: 8px;
     margin-bottom: 20px;
 }
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    height: 400px;
+}
+
+.testimonial-box {
+    width: 50%;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+h3 {
+    width: 50%;
+    text-align: end;
+    padding-top: 20px;
+    font-size: 25px;
+}
