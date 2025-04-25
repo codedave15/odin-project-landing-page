@@ -114,9 +114,38 @@
     font-size: 36px;
 }
 
-h3 {
+.testimonial h3 {
     width: 50%;
     text-align: end;
     padding-top: 20px;
     font-size: 25px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    width: 60%;
+    background-color: #3882F6;
+    margin: 7% auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+.info {
+    padding: 5% 10%;
+    color: #F9FAF8;
+}
+
+.info h3 {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.info button {
+    border: 3px solid #F9FAF8;
 }
