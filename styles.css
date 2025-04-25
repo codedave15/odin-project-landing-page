@@ -6,6 +6,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family:"Roboto", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .logo a {
@@ -32,9 +33,11 @@
     padding: 70px 200px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-h1 {
+.main-info h1 {
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 20px;
@@ -55,13 +58,43 @@ h1 {
 .btn {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 15%;
+    border: none;
+    border-radius: 8px;
     font-size: 15px;
     padding: 10px;
     font-weight: 800;
 }
 
-img {
+.main img {
     width: 600px;
     height: 450px;
+}
+
+.features h1 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 30px;
+    color: #1F2937;
+}
+
+.container-feature {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 50px 70px 70px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.feature-box {
+    width: 200px;
+    text-align: center;
+}
+
+.container-feature img {
+    height: 200px;
+    width: 200px;
+    border: 6px solid #3882F6;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
