@@ -14,10 +14,18 @@
     color: #F9FAF8;
 }
 
+.logo a:hover {
+    color: #3882F6;
+}
+
 .navbar a {
     font-size: 18px;
     color: #e5e7eb;
     margin-left: 20px; 
+}
+
+.navbar a:hover {
+    color: #3882F6;
 }
 
 .header {
@@ -26,6 +34,9 @@
     align-items: center;
     background-color: #1F2937;
     padding: 20px 200px;
+    position: fixed;
+    width: 100%;
+
 }
 
 .main {
@@ -63,6 +74,7 @@
     font-size: 15px;
     padding: 10px;
     font-weight: 800;
+    cursor: pointer;;
 }
 
 .main img {
@@ -148,4 +160,17 @@
 
 .info button {
     border: 3px solid #F9FAF8;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box {
+    color: #F9FAF8;
+    font-size: 20px;
+    margin: 40px auto;
 }
